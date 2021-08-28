@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { WordsService } from './services/words.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'EasySpanishWords';
+
+  constructor(private wordsService: WordsService) {}
+
+  get nouns() {
+    return this.wordsService.getNouns();
+  }
+
+  get verbs() {
+    return this.wordsService.getVerbs();
+  }
 }

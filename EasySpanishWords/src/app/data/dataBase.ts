@@ -2,31 +2,31 @@ import { Type, WordType } from './models';
 
 export const WORDS: WordType[] = [
   {
-    word: 'accept',
+    word: 'bajar',
     type: Type.VERB,
   },
   {
-    word: 'advice',
+    word: 'coche',
     type: Type.NOUN,
   },
   {
-    word: 'blood',
+    word: 'oficina',
     type: Type.NOUN,
   },
   {
-    word: 'clear',
+    word: 'trabajar',
     type: Type.VERB,
   },
   {
-    word: 'damage',
+    word: 'vivir',
     type: Type.VERB,
   },
   {
-    word: 'choice',
+    word: 'viajero',
     type: Type.NOUN,
   },
   {
-    word: 'educate',
+    word: 'viajar',
     type: Type.VERB,
   },
 ];
